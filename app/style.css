@@ -1,0 +1,22 @@
+body {
+    font-family: serif;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+#chatpart {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#form {
+    display: flex;
+    gap: 8px;
+}
+
+#textInput {
+    flex: 1;
+    padding: 8px;
+}
