@@ -2,6 +2,7 @@ body {
     font-family: serif;
     max-width: 500px;
     margin: 40px auto;
+    background-color: gray;
 }
 
 #chatpart {
@@ -9,6 +10,9 @@ body {
     border-radius: 8px;
     height: 400px;
     overflow-y: auto;
+    color: lightgray;
+    padding-left: 6px;
+    padding-top: 6px;
 }
 
 #form {
@@ -19,4 +23,9 @@ body {
 #textInput {
     flex: 1;
     padding: 8px;
+    background-color: lightgray;
+}
+
+button {
+    background-color: lightgray;
 }
