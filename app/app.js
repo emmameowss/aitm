@@ -17,7 +17,7 @@ form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const text = textInput.value.trim();
   if (!text) return;
-  input.value = "";
+  textInput.value = "";
   addBubble(text, "user");
   messages.push({ role: "user", content: text });
   addBubble("...", "bot-loading");
