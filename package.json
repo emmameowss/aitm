@@ -1,0 +1,24 @@
+{
+  "name": "aitm",
+  "version": "1.0.0",
+  "description": "ai chat wrapper thing for hcai",
+  "homepage": "https://github.com/emmameowss/aitm#readme",
+  "bugs": {
+    "url": "https://github.com/emmameowss/aitm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmameowss/aitm.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
