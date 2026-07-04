@@ -5,7 +5,7 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
-app.use(express.static("app"));
+app.use(express.static("../app"));
 
 app.post("/api/chat", async (req, res) => {
   try {
