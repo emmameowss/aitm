@@ -15,7 +15,7 @@ function addBubble(text, who) {
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
-  const text = input.value.trim();
+  const text = textInput.value.trim();
   if (!text) return;
   input.value = "";
   addBubble(text, "user");
